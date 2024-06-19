@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autenticación</title>
+</head>
+<body>
+    <h2>Por favor, ingresa una contraseña valida</h2>
+    <form id="authForm">
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Aceptar</button>
+    </form>
+
+    <script>
+        document.getElementById('authForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const password = document.getElementById('password').value;
+            // Verifica la contraseña
+            if (password === '7028') {
+                window.location.href = 'https://forms.gle/XetQXR5CtRkjvCou8';
+            }
+               if (password === '5026') {
+                window.location.href = 'https://forms.gle/XetQXR5CtRkjvCou8';
+            }
+                  if (password === '4562') {
+                window.location.href = 'https://forms.gle/XetQXR5CtRkjvCou8';
+            }
+            }
+                  if (password === '9865') {
+                window.location.href = 'https://forms.gle/XetQXR5CtRkjvCou8';
+            }        
+            else {
+                alert('Contraseña incorrecta, digite una corrrecta');
+            }
+        });
+    </script>
+</body>
+</html>
